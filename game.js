@@ -60,7 +60,7 @@ function updateCounts () {
       else if (dotArray[i].classList.contains('green') === true){
         totals.green += 1
       }
-      else {
+      else if (dotArray[i].classList.contains('invisible') === true){
         totals.invisible += 1
       }
     }
